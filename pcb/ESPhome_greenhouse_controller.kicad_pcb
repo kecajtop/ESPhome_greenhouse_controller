@@ -869,6 +869,314 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_MELF"
+		(layer "F.Cu")
+		(uuid "4358d173-7ce7-4714-bc77-e18ff2a3efa3")
+		(at 190.5 61.4)
+		(descr "Diode, MELF,,")
+		(tags "Diode MELF ")
+		(property "Reference" "D6"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "8a08e3fb-7805-4b89-a51e-125a1603bae7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SM4007"
+			(at -0.25 2.5 0)
+			(layer "F.Fab")
+			(uuid "a99a9fe6-7d13-4e66-a4dd-469aac9b2a55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "326ee79f-0797-4ecc-9e75-ffb64e5d581d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4898931e-72f3-4ec0-a4a4-671f832f8fa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d35d09e-6302-480e-b58e-836365579e4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8ac467d-4962-4e3c-9baf-45847c9cd7c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23269fbd-f5e3-4795-8b45-17ad0b0b87a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*MELF*")
+		(path "/201a2935-8569-49a9-90d7-53d3d505bf04")
+		(sheetname "Główny")
+		(sheetfile "ESPhome_greenhouse_controller.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.41 -1.61)
+			(end -3.41 1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "68579526-d817-4f0d-a64f-1fa78ff674e1")
+		)
+		(fp_line
+			(start -3.41 1.61)
+			(end 2.4 1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9d56a8bb-2c03-4821-b8a6-32a14b74b0ee")
+		)
+		(fp_line
+			(start 2.4 -1.61)
+			(end -3.41 -1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "037c692b-b312-41ee-88e4-a1d284fd3158")
+		)
+		(fp_line
+			(start -3.4 -1.6)
+			(end 3.4 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5425362d-9374-4fb9-b96c-27edce39fead")
+		)
+		(fp_line
+			(start -3.4 1.6)
+			(end -3.4 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d7b2818e-4d32-4512-b72f-eab3ce858924")
+		)
+		(fp_line
+			(start 3.4 -1.6)
+			(end 3.4 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b613c1bf-e320-4af4-8258-c20c005482f5")
+		)
+		(fp_line
+			(start 3.4 1.6)
+			(end -3.4 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "76cc1306-9500-465d-9995-c2bd8de8d95a")
+		)
+		(fp_line
+			(start -2.6 -1.3)
+			(end -2.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "df839481-6e32-4deb-be07-1abf2bc2069f")
+		)
+		(fp_line
+			(start -2.6 1.3)
+			(end 2.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01bbcf5c-ad31-4aac-bb0e-25f8614c664e")
+		)
+		(fp_line
+			(start -0.64944 -0.79908)
+			(end -0.64944 0.80112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ed60d699-583e-4bfb-90a2-db663376100b")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end -1.55114 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "643773c3-17a7-45f9-833a-a26327a207c1")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e12f8bda-2bcc-4059-90a7-a7fdfd1f8b66")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 0.75032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca9f4e0e-c5e3-4e78-b28f-971ceffd130d")
+		)
+		(fp_line
+			(start 0.50118 0.00102)
+			(end 1.4994 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ccfcbadc-87ef-418f-a911-c479741ad779")
+		)
+		(fp_line
+			(start 0.50118 0.75032)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2ee78bbe-2a68-4c3d-9b61-bfc426620670")
+		)
+		(fp_line
+			(start 2.6 -1.3)
+			(end -2.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eeb5e5a7-937d-421f-a30b-d9f74183ca46")
+		)
+		(fp_line
+			(start 2.6 1.3)
+			(end 2.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3633aab2-06c0-42a9-9952-0ab3c69e2932")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "59abe19f-7b50-43ca-a956-7f5a121a5054")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.4 0)
+			(size 1.5 2.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1666666667)
+			(net 28 "+24V")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "00797412-d727-4693-80f4-3b749dfbddb1")
+		)
+		(pad "2" smd roundrect
+			(at 2.4 0)
+			(size 1.5 2.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1666666667)
+			(net 14 "/nLIGHT")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "ce65b43b-78e8-452c-91ed-5845a61468f6")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MELF.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_DIP:DIP-4_W7.62mm"
 		(layer "F.Cu")
 		(uuid "44c14bf6-bed1-4c6c-b96b-b108527a7008")
@@ -886,7 +1194,7 @@
 				)
 			)
 		)
-		(property "Value" "PC817"
+		(property "Value" "EL817"
 			(at 3.81 4.87 0)
 			(layer "F.Fab")
 			(uuid "e6cf3947-5c11-48a8-a339-60f07e025f39")
@@ -909,7 +1217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
+		(property "Datasheet" "http://www.everlight.com/file/ProductFile/EL817.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -921,7 +1229,7 @@
 				)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+		(property "Description" "DC Optocoupler, Vce 35V, DIP-4"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1605,6 +1913,314 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_MELF"
+		(layer "F.Cu")
+		(uuid "628010dd-9137-41ec-8a5c-c6e5594cbe6b")
+		(at 190.5 52.72)
+		(descr "Diode, MELF,,")
+		(tags "Diode MELF ")
+		(property "Reference" "D4"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "54c52a17-ceac-47c3-b85a-c316180ffdc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SM4007"
+			(at -0.25 2.5 0)
+			(layer "F.Fab")
+			(uuid "d0675055-6c99-4934-95e0-92a946f23c8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2573390-eeb2-489b-b767-fc40393db1ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e069a64-b3b1-4c2b-a3ad-315e10b1b7ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5131424-e0af-4fd7-86c9-fdf52df28be6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad6adaa2-badd-42ff-bc20-721a1219a916")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "459e998c-4574-4583-86b4-54d914ea9530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*MELF*")
+		(path "/dee07244-9044-4e02-ae7a-0492ee3d99ef")
+		(sheetname "Główny")
+		(sheetfile "ESPhome_greenhouse_controller.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.41 -1.61)
+			(end -3.41 1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fb8fd25c-287a-48c8-b8af-43212ac31c92")
+		)
+		(fp_line
+			(start -3.41 1.61)
+			(end 2.4 1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d6d50299-04d4-498a-99a6-368c0b4f11aa")
+		)
+		(fp_line
+			(start 2.4 -1.61)
+			(end -3.41 -1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c721341-a10a-4a15-95b8-b9e4960f07a4")
+		)
+		(fp_line
+			(start -3.4 -1.6)
+			(end 3.4 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "91354824-dfc0-4ad8-99b6-742cde705227")
+		)
+		(fp_line
+			(start -3.4 1.6)
+			(end -3.4 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "05c7d271-fbf7-4dd6-9d2e-098d297518d5")
+		)
+		(fp_line
+			(start 3.4 -1.6)
+			(end 3.4 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5cc87937-11b9-4243-aa0c-0ff0448d82aa")
+		)
+		(fp_line
+			(start 3.4 1.6)
+			(end -3.4 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "79b0173f-9ee6-4da6-a0b7-47226aca80e9")
+		)
+		(fp_line
+			(start -2.6 -1.3)
+			(end -2.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc55647b-dfde-495e-9de7-6975a1fe2890")
+		)
+		(fp_line
+			(start -2.6 1.3)
+			(end 2.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a86414f0-b41e-4fb0-be2f-5aeaa213ff58")
+		)
+		(fp_line
+			(start -0.64944 -0.79908)
+			(end -0.64944 0.80112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "de025a4e-ab51-4b1f-ab79-24f35e60afa5")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end -1.55114 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "91ed7d4e-56ae-4a2b-b236-1b35044f8620")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ba5af481-5a82-4327-b552-cf3efc7f269c")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 0.75032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1625de60-7ebd-4c67-a7c1-a372584e09b6")
+		)
+		(fp_line
+			(start 0.50118 0.00102)
+			(end 1.4994 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ba86160f-a2c0-4551-8c09-72d0fd7c73df")
+		)
+		(fp_line
+			(start 0.50118 0.75032)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "29b992e5-d1c7-494d-a906-20895344761d")
+		)
+		(fp_line
+			(start 2.6 -1.3)
+			(end -2.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1c5f19a3-8dd3-4ed0-bb64-019dbe671d9b")
+		)
+		(fp_line
+			(start 2.6 1.3)
+			(end 2.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b1fb16b-f9c0-452a-b7d4-b16ef5ff7400")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "aec46aac-908d-4e85-9726-19d7daeccb24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.4 0)
+			(size 1.5 2.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1666666667)
+			(net 28 "+24V")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "9f5660f8-13fb-4d78-a7f0-aaf0397e9922")
+		)
+		(pad "2" smd roundrect
+			(at 2.4 0)
+			(size 1.5 2.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1666666667)
+			(net 8 "/nFWD2")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "0cb1cd84-69ba-4592-9c7a-bcd7b0ca445e")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MELF.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
 		(layer "F.Cu")
 		(uuid "62d7c0a5-0f13-4720-9f7b-1f0cac23d80d")
@@ -2075,7 +2691,7 @@
 				)
 			)
 		)
-		(property "Value" "PC817"
+		(property "Value" "EL817"
 			(at 3.81 4.87 0)
 			(layer "F.Fab")
 			(uuid "590f710d-75db-4208-a62f-b009006eace9")
@@ -2098,7 +2714,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
+		(property "Datasheet" "http://www.everlight.com/file/ProductFile/EL817.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2110,7 +2726,7 @@
 				)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+		(property "Description" "DC Optocoupler, Vce 35V, DIP-4"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3160,6 +3776,314 @@
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c4577ae0-fd8c-40ec-89aa-6f8019fae5e9")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MELF.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_MELF"
+		(layer "F.Cu")
+		(uuid "96be996e-b22a-4452-b8ab-dc31aca9bec7")
+		(at 190.5 57.06)
+		(descr "Diode, MELF,,")
+		(tags "Diode MELF ")
+		(property "Reference" "D5"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "9338f9fa-98b9-4acb-a92e-005ed0321ce0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SM4007"
+			(at -0.25 2.5 0)
+			(layer "F.Fab")
+			(uuid "d5abfcd9-1897-419b-a48b-406bc59d60bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "902b0f32-9a4a-4c8c-b9b6-f929fb4c4319")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbbe6a41-e117-4b3b-acd4-15573e2fa78d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffd41898-c08a-41d5-b02c-10de50aab450")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb7076e7-b253-42e4-a28a-a251647fe00f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "925ed2db-109f-4a24-9622-f00941494ed6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*MELF*")
+		(path "/7ea55367-a867-495e-a6e8-582207f2557a")
+		(sheetname "Główny")
+		(sheetfile "ESPhome_greenhouse_controller.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.41 -1.61)
+			(end -3.41 1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "23242e4b-e167-40b0-860c-68a4f89fb2c1")
+		)
+		(fp_line
+			(start -3.41 1.61)
+			(end 2.4 1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5b227795-ef2d-458e-b98d-c03eafe833c1")
+		)
+		(fp_line
+			(start 2.4 -1.61)
+			(end -3.41 -1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b7888bb-1cf8-418d-95f8-c0ad6421cb6b")
+		)
+		(fp_line
+			(start -3.4 -1.6)
+			(end 3.4 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ddafdc51-9634-4a64-a011-d0848503bcf0")
+		)
+		(fp_line
+			(start -3.4 1.6)
+			(end -3.4 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cbe13e97-d5b3-479a-b664-ffc86da8319f")
+		)
+		(fp_line
+			(start 3.4 -1.6)
+			(end 3.4 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e537ef41-ab1d-4da0-b737-4f5c7c093951")
+		)
+		(fp_line
+			(start 3.4 1.6)
+			(end -3.4 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "71444881-2263-41d6-90b7-721a7fbb03a5")
+		)
+		(fp_line
+			(start -2.6 -1.3)
+			(end -2.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "12df9f8f-f06a-49e8-8ad9-d0d3a91ee663")
+		)
+		(fp_line
+			(start -2.6 1.3)
+			(end 2.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fbc19a6e-ff8e-4ea4-ae1f-d032a63c83a3")
+		)
+		(fp_line
+			(start -0.64944 -0.79908)
+			(end -0.64944 0.80112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c6b209d2-5420-44f7-917d-1624325a45fe")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end -1.55114 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b5c3c231-86ed-4d13-b4b8-ae5ae3b6c2d0")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "566c3753-e9ef-4aad-9dab-e1d6077082c4")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 0.75032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cee2b31f-3663-403e-939f-4ef1e88fac66")
+		)
+		(fp_line
+			(start 0.50118 0.00102)
+			(end 1.4994 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7556b889-3174-4175-8b98-ec63edd2e2d7")
+		)
+		(fp_line
+			(start 0.50118 0.75032)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "64a4b865-6654-4688-8cbb-1ffd79d1ebda")
+		)
+		(fp_line
+			(start 2.6 -1.3)
+			(end -2.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e1bc0da6-8a82-4288-9983-2edea6744f67")
+		)
+		(fp_line
+			(start 2.6 1.3)
+			(end 2.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "47d622bd-2a6b-43fb-a022-b7370ae1103d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "f621a9bc-7a68-43e0-aa88-f89ed9f57eee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.4 0)
+			(size 1.5 2.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1666666667)
+			(net 28 "+24V")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "9141165e-305a-479a-8828-686026fc38d2")
+		)
+		(pad "2" smd roundrect
+			(at 2.4 0)
+			(size 1.5 2.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1666666667)
+			(net 11 "/nSOUND")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "609d7596-90f8-4ead-bd76-aa4a70ba2118")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MELF.wrl"
 			(offset
@@ -4983,6 +5907,314 @@
 			(uuid "b3f4f0d8-69d1-4f97-8c8a-a99db170bb32")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-RHT1100.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_MELF"
+		(layer "F.Cu")
+		(uuid "d5edc5cd-daa8-418a-af97-43d9efb924f6")
+		(at 190.5 48.38)
+		(descr "Diode, MELF,,")
+		(tags "Diode MELF ")
+		(property "Reference" "D3"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "99dd5862-4696-426e-8e49-3329a05c5f65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SM4007"
+			(at -0.25 2.5 0)
+			(layer "F.Fab")
+			(uuid "9402b8cb-b9b5-40c0-8157-d5b82db7af49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d4a4fe6-66ce-48b9-a0ed-05b03710333c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46002d81-465f-4c2e-83db-c9bad169b65b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d279151a-553f-49b1-bf60-cb2587f07501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "948a671d-d8ed-42af-abaf-a25088ba1c5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cc2ede5-405c-41bc-aa7c-2b4225ca9383")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*MELF*")
+		(path "/80f9187a-180a-4377-a3ca-3d252c4b11cd")
+		(sheetname "Główny")
+		(sheetfile "ESPhome_greenhouse_controller.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.41 -1.61)
+			(end -3.41 1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7f98cfec-f0a9-4255-8e9c-10f8e3de54fb")
+		)
+		(fp_line
+			(start -3.41 1.61)
+			(end 2.4 1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ac1086c-8ab4-4e1c-8a6d-299fb987780c")
+		)
+		(fp_line
+			(start 2.4 -1.61)
+			(end -3.41 -1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a83b757e-253c-4a0c-8881-2a88374894e8")
+		)
+		(fp_line
+			(start -3.4 -1.6)
+			(end 3.4 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e4c6cbf6-6614-40e9-97a6-c2fac95ff8e8")
+		)
+		(fp_line
+			(start -3.4 1.6)
+			(end -3.4 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "73fb8fc3-78f8-46b1-86f9-7db5ccefca3b")
+		)
+		(fp_line
+			(start 3.4 -1.6)
+			(end 3.4 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cc0813ca-ccd2-4149-9116-ae4874864156")
+		)
+		(fp_line
+			(start 3.4 1.6)
+			(end -3.4 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "979f8848-c0e1-49b1-8e72-fb9c07b64504")
+		)
+		(fp_line
+			(start -2.6 -1.3)
+			(end -2.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef2f0219-af82-4612-a844-0c4821905e6c")
+		)
+		(fp_line
+			(start -2.6 1.3)
+			(end 2.6 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3c20a388-a2da-44a3-8c3c-00c6ded7d256")
+		)
+		(fp_line
+			(start -0.64944 -0.79908)
+			(end -0.64944 0.80112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a12d0d0-05d3-4ca1-bfcc-dc80169c4cee")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end -1.55114 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4a121046-ac85-4033-bf98-98a553ec955e")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2b7034c-ebe1-4162-adae-e77460908799")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 0.75032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a875c755-4a79-414e-baea-2a6078af527c")
+		)
+		(fp_line
+			(start 0.50118 0.00102)
+			(end 1.4994 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eb1e83ed-0b74-4462-bac6-ab0918488832")
+		)
+		(fp_line
+			(start 0.50118 0.75032)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b1036877-81be-4d5d-8d5d-9412180a848b")
+		)
+		(fp_line
+			(start 2.6 -1.3)
+			(end -2.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "15f45806-76e1-44c5-bb8f-6528be7cace1")
+		)
+		(fp_line
+			(start 2.6 1.3)
+			(end 2.6 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "adaafe73-e975-4902-89d8-caa3496f2c2e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "8a4a8bec-91cb-4ff9-89ca-7e1c762e1996")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.4 0)
+			(size 1.5 2.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1666666667)
+			(net 28 "+24V")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "5eb50574-b19c-4ec6-8f70-e5b74377bd5f")
+		)
+		(pad "2" smd roundrect
+			(at 2.4 0)
+			(size 1.5 2.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1666666667)
+			(net 6 "/nREV2")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "594cb1a5-f876-4007-b729-0abe6a19d9b3")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MELF.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
