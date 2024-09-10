@@ -1792,6 +1792,651 @@
 				)
 			)
 		)
+		(symbol "kadex:ZD1008"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOD"
+				(at 10.16 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kadex:ZD1008"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZD1008_0_1"
+				(rectangle
+					(start 2.54 1.27)
+					(end 7.62 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ZD1008_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ZD1008_2_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 2.54)
+					(name "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ZD1008_3_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 2.54)
+					(name "C8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ZD1008_4_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 2.54)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers hide)
@@ -16623,6 +17268,166 @@
 		)
 	)
 	(symbol
+		(lib_id "kadex:ZD1008")
+		(at 132.08 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f47b006-a624-4425-8973-dbec5370a9ad")
+		(property "Reference" "MOD1"
+			(at 140.97 154.3049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kadex:ZD1008"
+			(at 132.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "7d4604d3-7353-4be4-8dd3-11dcd1173db7")
+		)
+		(pin "B6"
+			(uuid "d4285f47-c108-483c-92b7-d50a34aad90f")
+		)
+		(pin "D5"
+			(uuid "cb135f18-9b50-45ec-9df4-bb71dc4edd22")
+		)
+		(pin "D2"
+			(uuid "2d3611de-2231-4fc4-b208-d59d3bfd358c")
+		)
+		(pin "A4"
+			(uuid "432fb4f7-d551-46ec-935d-186e8dcefc2e")
+		)
+		(pin "C2"
+			(uuid "828a0215-2bdc-4679-a6d1-c22bfdc9fc34")
+		)
+		(pin "B1"
+			(uuid "b0ae8344-5c8b-4fbf-9ca7-cb1bf6642371")
+		)
+		(pin "C4"
+			(uuid "d3f25d10-1daa-4b82-810c-d5d9486ff44a")
+		)
+		(pin "C3"
+			(uuid "528ce145-3e59-4d7f-9e2c-95a8e558e524")
+		)
+		(pin "C6"
+			(uuid "ca2e2913-c32b-437d-8753-7f836bcf3e18")
+		)
+		(pin "A2"
+			(uuid "2d1807df-590d-4b22-8368-3fa93bb3d5e6")
+		)
+		(pin "A8"
+			(uuid "306b2e71-bc7e-403d-a68c-d8ece7b9a9fe")
+		)
+		(pin "C7"
+			(uuid "af942689-167f-45fd-a660-4dbb8ac917bf")
+		)
+		(pin "C1"
+			(uuid "6247f4e5-4ded-4d31-8f92-8f13486c9405")
+		)
+		(pin "B7"
+			(uuid "b4f95b75-6f5f-450e-8a3d-e666465c683b")
+		)
+		(pin "B2"
+			(uuid "b20ea5f9-ffc1-4a07-a985-8e2fe933867e")
+		)
+		(pin "B4"
+			(uuid "29c8672f-18da-43b8-babd-fa6a448602c2")
+		)
+		(pin "A5"
+			(uuid "3db8faaa-71dd-453f-84c6-74896e77c7e7")
+		)
+		(pin "B3"
+			(uuid "b0ab5742-3dc7-499b-84fc-3a028b129a6c")
+		)
+		(pin "B8"
+			(uuid "816292ed-ca59-455b-a5ee-9a0aa6543b9a")
+		)
+		(pin "D3"
+			(uuid "7261d069-4d17-4e39-baed-4bc5aebf1c56")
+		)
+		(pin "D6"
+			(uuid "77bcddc4-dfd3-460a-b37c-336c4898af82")
+		)
+		(pin "A7"
+			(uuid "8f496f0c-42c3-4640-aa64-8bb34ae6e38c")
+		)
+		(pin "D8"
+			(uuid "5abefebc-f668-49af-82fc-bb36d9578ae0")
+		)
+		(pin "C8"
+			(uuid "738ccd49-628a-438b-8b31-6e9368057c05")
+		)
+		(pin "D4"
+			(uuid "13ebbddd-62ec-439a-90ec-6f7777fa47c5")
+		)
+		(pin "C5"
+			(uuid "ef28ea83-7e94-4272-9d7f-b426bbfe558b")
+		)
+		(pin "A3"
+			(uuid "1cf2f917-fc55-4be9-9fdc-f84ec9a52b20")
+		)
+		(pin "A6"
+			(uuid "7f0b6f91-9003-481e-a7e5-8610f6457108")
+		)
+		(pin "B5"
+			(uuid "5832fbc8-20ff-4d5c-ae0a-54bb77f749e3")
+		)
+		(pin "D7"
+			(uuid "7b17d210-daf6-4989-a9a2-f5747f39ec29")
+		)
+		(pin "D1"
+			(uuid "cc4ab80c-0636-452f-b7b7-033e003eb394")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "MOD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 300.99 20.32 0)
 		(unit 1)
@@ -17178,6 +17983,166 @@
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "#PWR012")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kadex:ZD1008")
+		(at 245.11 185.42 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bffbf7b-f0c6-45c6-ac61-0eb969a3b22a")
+		(property "Reference" "MOD1"
+			(at 254 193.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 254 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kadex:ZD1008"
+			(at 245.11 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "7d4604d3-7353-4be4-8dd3-11dcd1173db7")
+		)
+		(pin "B6"
+			(uuid "d4285f47-c108-483c-92b7-d50a34aad90f")
+		)
+		(pin "D5"
+			(uuid "cb135f18-9b50-45ec-9df4-bb71dc4edd22")
+		)
+		(pin "D2"
+			(uuid "2d3611de-2231-4fc4-b208-d59d3bfd358c")
+		)
+		(pin "A4"
+			(uuid "432fb4f7-d551-46ec-935d-186e8dcefc2e")
+		)
+		(pin "C2"
+			(uuid "828a0215-2bdc-4679-a6d1-c22bfdc9fc34")
+		)
+		(pin "B1"
+			(uuid "b0ae8344-5c8b-4fbf-9ca7-cb1bf6642371")
+		)
+		(pin "C4"
+			(uuid "d3f25d10-1daa-4b82-810c-d5d9486ff44a")
+		)
+		(pin "C3"
+			(uuid "528ce145-3e59-4d7f-9e2c-95a8e558e524")
+		)
+		(pin "C6"
+			(uuid "ca2e2913-c32b-437d-8753-7f836bcf3e18")
+		)
+		(pin "A2"
+			(uuid "2d1807df-590d-4b22-8368-3fa93bb3d5e6")
+		)
+		(pin "A8"
+			(uuid "306b2e71-bc7e-403d-a68c-d8ece7b9a9fe")
+		)
+		(pin "C7"
+			(uuid "af942689-167f-45fd-a660-4dbb8ac917bf")
+		)
+		(pin "C1"
+			(uuid "6247f4e5-4ded-4d31-8f92-8f13486c9405")
+		)
+		(pin "B7"
+			(uuid "b4f95b75-6f5f-450e-8a3d-e666465c683b")
+		)
+		(pin "B2"
+			(uuid "b20ea5f9-ffc1-4a07-a985-8e2fe933867e")
+		)
+		(pin "B4"
+			(uuid "29c8672f-18da-43b8-babd-fa6a448602c2")
+		)
+		(pin "A5"
+			(uuid "3db8faaa-71dd-453f-84c6-74896e77c7e7")
+		)
+		(pin "B3"
+			(uuid "b0ab5742-3dc7-499b-84fc-3a028b129a6c")
+		)
+		(pin "B8"
+			(uuid "816292ed-ca59-455b-a5ee-9a0aa6543b9a")
+		)
+		(pin "D3"
+			(uuid "7261d069-4d17-4e39-baed-4bc5aebf1c56")
+		)
+		(pin "D6"
+			(uuid "77bcddc4-dfd3-460a-b37c-336c4898af82")
+		)
+		(pin "A7"
+			(uuid "8f496f0c-42c3-4640-aa64-8bb34ae6e38c")
+		)
+		(pin "D8"
+			(uuid "5abefebc-f668-49af-82fc-bb36d9578ae0")
+		)
+		(pin "C8"
+			(uuid "738ccd49-628a-438b-8b31-6e9368057c05")
+		)
+		(pin "D4"
+			(uuid "13ebbddd-62ec-439a-90ec-6f7777fa47c5")
+		)
+		(pin "C5"
+			(uuid "ef28ea83-7e94-4272-9d7f-b426bbfe558b")
+		)
+		(pin "A3"
+			(uuid "1cf2f917-fc55-4be9-9fdc-f84ec9a52b20")
+		)
+		(pin "A6"
+			(uuid "7f0b6f91-9003-481e-a7e5-8610f6457108")
+		)
+		(pin "B5"
+			(uuid "5832fbc8-20ff-4d5c-ae0a-54bb77f749e3")
+		)
+		(pin "D7"
+			(uuid "7b17d210-daf6-4989-a9a2-f5747f39ec29")
+		)
+		(pin "D1"
+			(uuid "cc4ab80c-0636-452f-b7b7-033e003eb394")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "MOD1")
+					(unit 4)
 				)
 			)
 		)
@@ -17981,6 +18946,326 @@
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "F2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kadex:ZD1008")
+		(at 201.93 171.45 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c99f0ad5-e2d6-49e0-9731-a28cd5d69da9")
+		(property "Reference" "MOD1"
+			(at 210.82 179.7049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 210.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kadex:ZD1008"
+			(at 201.93 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "7d4604d3-7353-4be4-8dd3-11dcd1173db7")
+		)
+		(pin "B6"
+			(uuid "d4285f47-c108-483c-92b7-d50a34aad90f")
+		)
+		(pin "D5"
+			(uuid "cb135f18-9b50-45ec-9df4-bb71dc4edd22")
+		)
+		(pin "D2"
+			(uuid "2d3611de-2231-4fc4-b208-d59d3bfd358c")
+		)
+		(pin "A4"
+			(uuid "432fb4f7-d551-46ec-935d-186e8dcefc2e")
+		)
+		(pin "C2"
+			(uuid "828a0215-2bdc-4679-a6d1-c22bfdc9fc34")
+		)
+		(pin "B1"
+			(uuid "b0ae8344-5c8b-4fbf-9ca7-cb1bf6642371")
+		)
+		(pin "C4"
+			(uuid "d3f25d10-1daa-4b82-810c-d5d9486ff44a")
+		)
+		(pin "C3"
+			(uuid "528ce145-3e59-4d7f-9e2c-95a8e558e524")
+		)
+		(pin "C6"
+			(uuid "ca2e2913-c32b-437d-8753-7f836bcf3e18")
+		)
+		(pin "A2"
+			(uuid "2d1807df-590d-4b22-8368-3fa93bb3d5e6")
+		)
+		(pin "A8"
+			(uuid "306b2e71-bc7e-403d-a68c-d8ece7b9a9fe")
+		)
+		(pin "C7"
+			(uuid "af942689-167f-45fd-a660-4dbb8ac917bf")
+		)
+		(pin "C1"
+			(uuid "6247f4e5-4ded-4d31-8f92-8f13486c9405")
+		)
+		(pin "B7"
+			(uuid "b4f95b75-6f5f-450e-8a3d-e666465c683b")
+		)
+		(pin "B2"
+			(uuid "b20ea5f9-ffc1-4a07-a985-8e2fe933867e")
+		)
+		(pin "B4"
+			(uuid "29c8672f-18da-43b8-babd-fa6a448602c2")
+		)
+		(pin "A5"
+			(uuid "3db8faaa-71dd-453f-84c6-74896e77c7e7")
+		)
+		(pin "B3"
+			(uuid "b0ab5742-3dc7-499b-84fc-3a028b129a6c")
+		)
+		(pin "B8"
+			(uuid "816292ed-ca59-455b-a5ee-9a0aa6543b9a")
+		)
+		(pin "D3"
+			(uuid "7261d069-4d17-4e39-baed-4bc5aebf1c56")
+		)
+		(pin "D6"
+			(uuid "77bcddc4-dfd3-460a-b37c-336c4898af82")
+		)
+		(pin "A7"
+			(uuid "8f496f0c-42c3-4640-aa64-8bb34ae6e38c")
+		)
+		(pin "D8"
+			(uuid "5abefebc-f668-49af-82fc-bb36d9578ae0")
+		)
+		(pin "C8"
+			(uuid "738ccd49-628a-438b-8b31-6e9368057c05")
+		)
+		(pin "D4"
+			(uuid "13ebbddd-62ec-439a-90ec-6f7777fa47c5")
+		)
+		(pin "C5"
+			(uuid "ef28ea83-7e94-4272-9d7f-b426bbfe558b")
+		)
+		(pin "A3"
+			(uuid "1cf2f917-fc55-4be9-9fdc-f84ec9a52b20")
+		)
+		(pin "A6"
+			(uuid "7f0b6f91-9003-481e-a7e5-8610f6457108")
+		)
+		(pin "B5"
+			(uuid "5832fbc8-20ff-4d5c-ae0a-54bb77f749e3")
+		)
+		(pin "D7"
+			(uuid "7b17d210-daf6-4989-a9a2-f5747f39ec29")
+		)
+		(pin "D1"
+			(uuid "cc4ab80c-0636-452f-b7b7-033e003eb394")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "MOD1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kadex:ZD1008")
+		(at 173.99 196.85 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d48f361e-65dc-4542-b6fa-bb756f6e69ba")
+		(property "Reference" "MOD1"
+			(at 182.88 205.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kadex:ZD1008"
+			(at 173.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "7d4604d3-7353-4be4-8dd3-11dcd1173db7")
+		)
+		(pin "B6"
+			(uuid "d4285f47-c108-483c-92b7-d50a34aad90f")
+		)
+		(pin "D5"
+			(uuid "cb135f18-9b50-45ec-9df4-bb71dc4edd22")
+		)
+		(pin "D2"
+			(uuid "2d3611de-2231-4fc4-b208-d59d3bfd358c")
+		)
+		(pin "A4"
+			(uuid "432fb4f7-d551-46ec-935d-186e8dcefc2e")
+		)
+		(pin "C2"
+			(uuid "828a0215-2bdc-4679-a6d1-c22bfdc9fc34")
+		)
+		(pin "B1"
+			(uuid "b0ae8344-5c8b-4fbf-9ca7-cb1bf6642371")
+		)
+		(pin "C4"
+			(uuid "d3f25d10-1daa-4b82-810c-d5d9486ff44a")
+		)
+		(pin "C3"
+			(uuid "528ce145-3e59-4d7f-9e2c-95a8e558e524")
+		)
+		(pin "C6"
+			(uuid "ca2e2913-c32b-437d-8753-7f836bcf3e18")
+		)
+		(pin "A2"
+			(uuid "2d1807df-590d-4b22-8368-3fa93bb3d5e6")
+		)
+		(pin "A8"
+			(uuid "306b2e71-bc7e-403d-a68c-d8ece7b9a9fe")
+		)
+		(pin "C7"
+			(uuid "af942689-167f-45fd-a660-4dbb8ac917bf")
+		)
+		(pin "C1"
+			(uuid "6247f4e5-4ded-4d31-8f92-8f13486c9405")
+		)
+		(pin "B7"
+			(uuid "b4f95b75-6f5f-450e-8a3d-e666465c683b")
+		)
+		(pin "B2"
+			(uuid "b20ea5f9-ffc1-4a07-a985-8e2fe933867e")
+		)
+		(pin "B4"
+			(uuid "29c8672f-18da-43b8-babd-fa6a448602c2")
+		)
+		(pin "A5"
+			(uuid "3db8faaa-71dd-453f-84c6-74896e77c7e7")
+		)
+		(pin "B3"
+			(uuid "b0ab5742-3dc7-499b-84fc-3a028b129a6c")
+		)
+		(pin "B8"
+			(uuid "816292ed-ca59-455b-a5ee-9a0aa6543b9a")
+		)
+		(pin "D3"
+			(uuid "7261d069-4d17-4e39-baed-4bc5aebf1c56")
+		)
+		(pin "D6"
+			(uuid "77bcddc4-dfd3-460a-b37c-336c4898af82")
+		)
+		(pin "A7"
+			(uuid "8f496f0c-42c3-4640-aa64-8bb34ae6e38c")
+		)
+		(pin "D8"
+			(uuid "5abefebc-f668-49af-82fc-bb36d9578ae0")
+		)
+		(pin "C8"
+			(uuid "738ccd49-628a-438b-8b31-6e9368057c05")
+		)
+		(pin "D4"
+			(uuid "13ebbddd-62ec-439a-90ec-6f7777fa47c5")
+		)
+		(pin "C5"
+			(uuid "ef28ea83-7e94-4272-9d7f-b426bbfe558b")
+		)
+		(pin "A3"
+			(uuid "1cf2f917-fc55-4be9-9fdc-f84ec9a52b20")
+		)
+		(pin "A6"
+			(uuid "7f0b6f91-9003-481e-a7e5-8610f6457108")
+		)
+		(pin "B5"
+			(uuid "5832fbc8-20ff-4d5c-ae0a-54bb77f749e3")
+		)
+		(pin "D7"
+			(uuid "7b17d210-daf6-4989-a9a2-f5747f39ec29")
+		)
+		(pin "D1"
+			(uuid "cc4ab80c-0636-452f-b7b7-033e003eb394")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "MOD1")
+					(unit 2)
 				)
 			)
 		)
