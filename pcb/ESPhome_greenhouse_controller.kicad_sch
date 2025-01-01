@@ -1895,181 +1895,6 @@
 				)
 			)
 		)
-		(symbol "Resistors_SMD_0603:R0603_10k_1%_100mW_100PPM_AC"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R0603_10k_1%_100mW_100PPM_AC"
-				(at 2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 11.1252 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 10K OHM 1% 1/10W 0603 AC0603FR-0710KL"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value1" "10k"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "AC0603FR-0710KL"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digi-Key"
-				(at 12.7 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number" "311-10KLDCT-ND"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit Price" "0.08"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package / Case" "R0603"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RES SMD 10K OHM 1% 1/10W 0603 AC0603FR-0710KL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R0603_10k_1%_100mW_100PPM_AC_1_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC"
 			(pin_numbers hide)
 			(pin_names
@@ -7125,6 +6950,12 @@
 		(uuid "4c252c14-e191-41c2-88cd-bd160514b44a")
 	)
 	(junction
+		(at 158.75 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5019bbf3-c8cf-47d9-85e2-bb620e5bfbe6")
+	)
+	(junction
 		(at 347.98 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7207,6 +7038,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e3121b2-5925-4995-a4fd-d1f8f112ba84")
+	)
+	(junction
+		(at 158.75 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e6bd117-ff3c-4050-bdb9-ce5b31c73f93")
 	)
 	(junction
 		(at 67.31 162.56)
@@ -8042,6 +7879,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 173.99) (xy 147.32 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c5c77d-d056-413f-92f1-56d165071505")
+	)
+	(wire
+		(pts
 			(xy 158.75 78.74) (xy 147.32 78.74)
 		)
 		(stroke
@@ -8239,16 +8086,6 @@
 			(type default)
 		)
 		(uuid "43d235ec-fd6c-45d2-97e0-642ddc6f66a4")
-	)
-	(wire
-		(pts
-			(xy 111.76 251.46) (xy 111.76 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43dc8790-bb0e-4c23-8094-10da4ba1c4fd")
 	)
 	(wire
 		(pts
@@ -8539,16 +8376,6 @@
 			(type default)
 		)
 		(uuid "5b540bab-eb73-461b-8ad6-0978388206a6")
-	)
-	(wire
-		(pts
-			(xy 111.76 270.51) (xy 111.76 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce8a49b-6404-48d9-8de0-ea8a06c949ff")
 	)
 	(wire
 		(pts
@@ -8942,16 +8769,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 251.46) (xy 99.06 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d71b234-b24f-4693-b6be-1eeacff0a51a")
-	)
-	(wire
-		(pts
 			(xy 275.59 129.54) (xy 275.59 134.62)
 		)
 		(stroke
@@ -9269,6 +9086,16 @@
 			(type default)
 		)
 		(uuid "9c02eaa9-23ca-46d4-befb-11c145235d7b")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdb1492-2fca-4aaa-98a5-669bf282393d")
 	)
 	(wire
 		(pts
@@ -9722,6 +9549,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 91.44) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d889f3-0a11-4de8-b256-a1ffddb57e3b")
+	)
+	(wire
+		(pts
 			(xy 347.98 223.52) (xy 341.63 223.52)
 		)
 		(stroke
@@ -9739,6 +9576,16 @@
 			(type default)
 		)
 		(uuid "c725d1d1-ba31-4e73-b956-b7d2cb6f174a")
+	)
+	(wire
+		(pts
+			(xy 158.75 171.45) (xy 158.75 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73c1e9c-cf1a-4b27-961c-2607f72dabbe")
 	)
 	(wire
 		(pts
@@ -10431,7 +10278,7 @@
 		(uuid "fff57109-e2fd-4ac8-a65f-8058282caa76")
 	)
 	(image
-		(at 492.76 36.83)
+		(at -73.66 47.625)
 		(scale 0.324809)
 		(uuid "1e650d25-66b5-49a3-a210-8e3801f6ccb5")
 		(data "iVBORw0KGgoAAAANSUhEUgAABkAAAARDCAYAAAAwB+0gAAAABGdBTUEAALGPC/xhBQAAACBjSFJN"
@@ -22954,6 +22801,17 @@
 		)
 		(uuid "c646d3a4-3e9c-4802-ac19-53c8f0f6217d")
 	)
+	(label "INT"
+		(at 147.32 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6822f3b-b923-4a84-814c-c4f995c9b30e")
+	)
 	(label "IN4_2_P"
 		(at 21.59 157.48 0)
 		(fields_autoplaced yes)
@@ -23064,17 +22922,6 @@
 		)
 		(uuid "e30f7664-2ca4-4e42-9fa4-4eb619d48863")
 	)
-	(label "BOOT0"
-		(at 99.06 251.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea0088ec-43d4-4e4a-87ae-c067bb3c21ce")
-	)
 	(label "LIGHT"
 		(at 207.01 156.21 180)
 		(fields_autoplaced yes)
@@ -23162,6 +23009,17 @@
 			(justify left bottom)
 		)
 		(uuid "fa714421-1234-4b1a-a447-1a52225dd103")
+	)
+	(label "INT"
+		(at 147.32 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb7f9192-9454-47fa-a436-3a2839553427")
 	)
 	(label "IN3_2_L"
 		(at 91.44 104.14 180)
@@ -29600,72 +29458,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 111.76 276.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab0416c5-57ee-4987-af78-43dab2067d62")
-		(property "Reference" "#PWR040"
-			(at 111.76 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bbeeed6-876a-41e0-a27d-bdc830d6bfd7")
-		)
-		(instances
-			(project "ESPhome_greenhouse_controller"
-				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 67.31 181.61 0)
 		(unit 1)
@@ -33086,139 +32878,6 @@
 			(project ""
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors_SMD_0603:R0603_10k_1%_100mW_100PPM_AC")
-		(at 111.76 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcd8daf6-0ffa-45e1-8461-32fd47a2162b")
-		(property "Reference" "R27"
-			(at 109.22 267.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R0603_10k_1%_100mW_100PPM_AC"
-			(at 114.3 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 122.8852 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
-			(at 111.76 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0603"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value1" "10k"
-			(at 111.76 269.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-0710KL"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 124.46 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "311-10KLDCT-ND"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.08"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0603"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64a808b6-e097-46d1-893b-faa10625b577")
-		)
-		(pin "2"
-			(uuid "2b915d04-6c06-4885-9abc-4c93edeaa72d")
-		)
-		(instances
-			(project "ESPhome_greenhouse_controller"
-				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "R27")
 					(unit 1)
 				)
 			)
