@@ -1895,181 +1895,6 @@
 				)
 			)
 		)
-		(symbol "Resistors_SMD_0603:R0603_10k_1%_100mW_100PPM_AC"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R0603_10k_1%_100mW_100PPM_AC"
-				(at 2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 11.1252 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES SMD 10K OHM 1% 1/10W 0603 AC0603FR-0710KL"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value1" "10k"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "AC0603FR-0710KL"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digi-Key"
-				(at 12.7 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number" "311-10KLDCT-ND"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit Price" "0.08"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package / Case" "R0603"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RES SMD 10K OHM 1% 1/10W 0603 AC0603FR-0710KL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R0603_10k_1%_100mW_100PPM_AC_1_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC"
 			(pin_numbers hide)
 			(pin_names
@@ -8242,16 +8067,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 251.46) (xy 111.76 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43dc8790-bb0e-4c23-8094-10da4ba1c4fd")
-	)
-	(wire
-		(pts
 			(xy 347.98 85.09) (xy 347.98 106.68)
 		)
 		(stroke
@@ -8539,16 +8354,6 @@
 			(type default)
 		)
 		(uuid "5b540bab-eb73-461b-8ad6-0978388206a6")
-	)
-	(wire
-		(pts
-			(xy 111.76 270.51) (xy 111.76 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce8a49b-6404-48d9-8de0-ea8a06c949ff")
 	)
 	(wire
 		(pts
@@ -8939,16 +8744,6 @@
 			(type default)
 		)
 		(uuid "7d2d5644-97cf-426a-98fc-814508decf02")
-	)
-	(wire
-		(pts
-			(xy 111.76 251.46) (xy 99.06 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d71b234-b24f-4693-b6be-1eeacff0a51a")
 	)
 	(wire
 		(pts
@@ -23064,17 +22859,6 @@
 		)
 		(uuid "e30f7664-2ca4-4e42-9fa4-4eb619d48863")
 	)
-	(label "BOOT0"
-		(at 99.06 251.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea0088ec-43d4-4e4a-87ae-c067bb3c21ce")
-	)
 	(label "LIGHT"
 		(at 207.01 156.21 180)
 		(fields_autoplaced yes)
@@ -29600,72 +29384,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 111.76 276.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab0416c5-57ee-4987-af78-43dab2067d62")
-		(property "Reference" "#PWR040"
-			(at 111.76 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bbeeed6-876a-41e0-a27d-bdc830d6bfd7")
-		)
-		(instances
-			(project "ESPhome_greenhouse_controller"
-				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 67.31 181.61 0)
 		(unit 1)
@@ -33086,139 +32804,6 @@
 			(project ""
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors_SMD_0603:R0603_10k_1%_100mW_100PPM_AC")
-		(at 111.76 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcd8daf6-0ffa-45e1-8461-32fd47a2162b")
-		(property "Reference" "R27"
-			(at 109.22 267.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R0603_10k_1%_100mW_100PPM_AC"
-			(at 114.3 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 122.8852 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
-			(at 111.76 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0603"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value1" "10k"
-			(at 111.76 269.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-0710KL"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 124.46 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "311-10KLDCT-ND"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.08"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0603"
-			(at 121.92 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64a808b6-e097-46d1-893b-faa10625b577")
-		)
-		(pin "2"
-			(uuid "2b915d04-6c06-4885-9abc-4c93edeaa72d")
-		)
-		(instances
-			(project "ESPhome_greenhouse_controller"
-				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "R27")
 					(unit 1)
 				)
 			)
