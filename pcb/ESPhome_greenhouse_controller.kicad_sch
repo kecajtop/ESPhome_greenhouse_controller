@@ -2438,6 +2438,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Switching:R-78E3.3-1.0"
 			(pin_names
 				(offset 0.254)
@@ -8151,16 +8296,16 @@
 		)
 	)
 	(junction
+		(at 554.99 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04f8941a-a3c5-42a0-95e2-88e105925533")
+	)
+	(junction
 		(at 355.6 330.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ad7f662-c1e1-44d1-b372-aa9b491a37e0")
-	)
-	(junction
-		(at 554.99 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0da33926-3c58-436e-b94b-4a4ba6eef360")
 	)
 	(junction
 		(at 453.39 138.43)
@@ -8221,6 +8366,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "268f7605-67a8-4cae-a0ad-e9627e079614")
+	)
+	(junction
+		(at 439.42 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d8f047a-8ccb-485a-ada4-77a8944281da")
 	)
 	(junction
 		(at 393.7 222.25)
@@ -8287,6 +8438,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44ed26a2-d0fa-41af-976d-9f88963fb5db")
+	)
+	(junction
+		(at 544.83 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45c35311-4b58-43bc-a9da-2f2d165b625a")
 	)
 	(junction
 		(at 490.22 138.43)
@@ -8451,12 +8608,6 @@
 		(uuid "8824114c-e52e-46be-b945-be95807e44ce")
 	)
 	(junction
-		(at 436.88 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89f938c0-16c6-447b-99b5-5336f9e734c9")
-	)
-	(junction
 		(at 519.43 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8473,6 +8624,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9030e525-7202-4b73-b875-8bc5e3fb51ca")
+	)
+	(junction
+		(at 441.96 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92a4b717-c704-4647-a72a-dc88cf0800a8")
 	)
 	(junction
 		(at 519.43 185.42)
@@ -8523,6 +8680,12 @@
 		(uuid "b636ec1e-3981-4af6-b218-b26679a974a2")
 	)
 	(junction
+		(at 287.02 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd877f55-b097-47d7-befe-9764dc2bd249")
+	)
+	(junction
 		(at 552.45 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8533,12 +8696,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0202dec-7046-4abc-98a9-47eb2e029ca2")
-	)
-	(junction
-		(at 439.42 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c17a80f9-f080-4212-b758-52ed44f54595")
 	)
 	(junction
 		(at 38.1 85.09)
@@ -8563,6 +8720,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8d389ae-e855-4179-bb70-22eab804e095")
+	)
+	(junction
+		(at 434.34 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb8d0a2-2975-44f0-ac9d-415288a93ebf")
 	)
 	(junction
 		(at 436.88 33.02)
@@ -8605,6 +8768,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d91ca13c-ab22-436b-beeb-b20c12f32e81")
+	)
+	(junction
+		(at 434.34 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9bffc07-bf4d-4681-b645-970f9255ef90")
 	)
 	(junction
 		(at 114.3 48.26)
@@ -9142,7 +9311,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 74.93) (xy 38.1 71.12)
+			(xy 38.1 74.93) (xy 38.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9392,7 +9561,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 138.43) (xy 436.88 207.01)
+			(xy 434.34 138.43) (xy 434.34 207.01)
 		)
 		(stroke
 			(width 0)
@@ -9439,6 +9608,16 @@
 			(type default)
 		)
 		(uuid "2afd88a5-e772-4565-a0a7-fdf9ce882869")
+	)
+	(wire
+		(pts
+			(xy 439.42 49.53) (xy 439.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2baa5a4f-5646-4159-b29b-36ce4c6275ef")
 	)
 	(wire
 		(pts
@@ -9732,6 +9911,16 @@
 	)
 	(wire
 		(pts
+			(xy 554.99 161.29) (xy 554.99 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b76ec88-2244-4abc-afa6-b4eb65aff111")
+	)
+	(wire
+		(pts
 			(xy 304.8 176.53) (xy 317.5 176.53)
 		)
 		(stroke
@@ -9739,16 +9928,6 @@
 			(type default)
 		)
 		(uuid "3c681c79-ec88-44ea-bb3e-e32dedd8315d")
-	)
-	(wire
-		(pts
-			(xy 554.99 133.35) (xy 554.99 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dd9126a-3dac-4c94-834f-0b0db3a949aa")
 	)
 	(wire
 		(pts
@@ -9799,16 +9978,6 @@
 			(type default)
 		)
 		(uuid "4057baa0-852e-49c7-80f3-df5ec1035dc9")
-	)
-	(wire
-		(pts
-			(xy 557.53 133.35) (xy 554.99 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40966339-9307-4bf6-a84e-934f20480be0")
 	)
 	(wire
 		(pts
@@ -10222,6 +10391,16 @@
 	)
 	(wire
 		(pts
+			(xy 434.34 33.02) (xy 436.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5280aa3f-923f-41e6-b30f-78aaac8af6b0")
+	)
+	(wire
+		(pts
 			(xy 358.14 100.33) (xy 353.06 100.33)
 		)
 		(stroke
@@ -10442,7 +10621,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 33.02) (xy 436.88 138.43)
+			(xy 434.34 33.02) (xy 434.34 138.43)
 		)
 		(stroke
 			(width 0)
@@ -10562,7 +10741,7 @@
 	)
 	(wire
 		(pts
-			(xy 554.99 156.21) (xy 554.99 162.56)
+			(xy 554.99 156.21) (xy 554.99 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10672,7 +10851,7 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 148.59) (xy 557.53 148.59)
+			(xy 529.59 148.59) (xy 557.53 148.59)
 		)
 		(stroke
 			(width 0)
@@ -10712,7 +10891,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 167.64) (xy 439.42 167.64)
+			(xy 449.58 167.64) (xy 441.96 167.64)
 		)
 		(stroke
 			(width 0)
@@ -10809,16 +10988,6 @@
 			(type default)
 		)
 		(uuid "76e464d2-719b-4e4c-b52e-17929b0fb0c2")
-	)
-	(wire
-		(pts
-			(xy 436.88 138.43) (xy 447.04 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "772e4ff2-915f-460b-b1b5-3892bda02785")
 	)
 	(wire
 		(pts
@@ -10962,6 +11131,16 @@
 	)
 	(wire
 		(pts
+			(xy 439.42 58.42) (xy 439.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebf2084-0112-4d6a-bdfd-a454d283fd70")
+	)
+	(wire
+		(pts
 			(xy 251.46 49.53) (xy 251.46 36.83)
 		)
 		(stroke
@@ -11092,7 +11271,7 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 153.67) (xy 557.53 153.67)
+			(xy 529.59 153.67) (xy 557.53 153.67)
 		)
 		(stroke
 			(width 0)
@@ -11422,6 +11601,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 69.85) (xy 295.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9563f5bd-7409-42e1-93c1-2b3939519b66")
+	)
+	(wire
+		(pts
 			(xy 480.06 185.42) (xy 499.11 185.42)
 		)
 		(stroke
@@ -11452,7 +11641,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 207.01) (xy 490.22 207.01)
+			(xy 434.34 207.01) (xy 490.22 207.01)
 		)
 		(stroke
 			(width 0)
@@ -11772,7 +11961,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 33.02) (xy 436.88 33.02)
+			(xy 431.8 33.02) (xy 434.34 33.02)
 		)
 		(stroke
 			(width 0)
@@ -12072,6 +12261,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.83 133.35) (xy 557.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31e2336-8cea-4f35-8379-5fed3970ca83")
+	)
+	(wire
+		(pts
 			(xy 359.41 154.94) (xy 354.33 154.94)
 		)
 		(stroke
@@ -12312,6 +12511,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.83 161.29) (xy 544.83 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde5e0d6-0d45-4b43-b2ee-40b58a24a11d")
+	)
+	(wire
+		(pts
 			(xy 208.28 46.99) (xy 242.57 46.99)
 		)
 		(stroke
@@ -12522,7 +12731,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 167.64) (xy 439.42 153.67)
+			(xy 441.96 167.64) (xy 441.96 153.67)
 		)
 		(stroke
 			(width 0)
@@ -12579,6 +12788,26 @@
 			(type default)
 		)
 		(uuid "d78d237e-cae4-46be-8d76-d0c2fa9b6028")
+	)
+	(wire
+		(pts
+			(xy 544.83 133.35) (xy 544.83 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8903f85-0d33-4699-a394-172e79048c59")
+	)
+	(wire
+		(pts
+			(xy 287.02 69.85) (xy 287.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9061be2-1e53-468f-a4e6-0694439621b4")
 	)
 	(wire
 		(pts
@@ -12692,7 +12921,7 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 130.81) (xy 557.53 130.81)
+			(xy 529.59 130.81) (xy 557.53 130.81)
 		)
 		(stroke
 			(width 0)
@@ -12762,7 +12991,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 66.04) (xy 287.02 73.66)
+			(xy 287.02 66.04) (xy 287.02 69.85)
 		)
 		(stroke
 			(width 0)
@@ -12929,6 +13158,16 @@
 			(type default)
 		)
 		(uuid "f29afd28-901d-4ed1-932a-b6e004004cc5")
+	)
+	(wire
+		(pts
+			(xy 434.34 138.43) (xy 447.04 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f300643e-b8a4-400d-8e3f-9742252479bf")
 	)
 	(wire
 		(pts
@@ -13222,7 +13461,7 @@
 		(uuid "007ef780-0ddc-4266-9166-12234342d1dc")
 	)
 	(label "OWIRE"
-		(at 539.75 130.81 0)
+		(at 529.59 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13332,7 +13571,7 @@
 		(uuid "17960aeb-a26a-4d91-a075-82cd055d2fd5")
 	)
 	(label "SIG_OPEN"
-		(at 539.75 148.59 0)
+		(at 529.59 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14366,7 +14605,7 @@
 		(uuid "e65e73fd-04b3-40e3-acee-546275c6c89b")
 	)
 	(label "SIG_CLOSE"
-		(at 539.75 153.67 0)
+		(at 529.59 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14554,7 +14793,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 38.1 71.12 0)
+		(at 38.1 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14563,7 +14802,7 @@
 		(fields_autoplaced yes)
 		(uuid "011c184b-04d3-4b53-b2de-877903382f77")
 		(property "Reference" "#PWR059"
-			(at 38.1 74.93 0)
+			(at 38.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14572,7 +14811,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 38.1 66.04 0)
+			(at 38.1 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14580,7 +14819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 71.12 0)
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14589,7 +14828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 71.12 0)
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14598,7 +14837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 38.1 71.12 0)
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16178,6 +16417,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 544.83 162.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2188cb73-72d1-4322-9382-a3d9d2750d24")
+		(property "Reference" "#PWR070"
+			(at 544.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 544.703 166.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 544.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 544.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 544.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d53fc5d-c792-4cac-bcf6-148ec9e55818")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 77.47 124.46 0)
 		(mirror y)
 		(unit 1)
@@ -16856,73 +17161,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 38.1 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "303ae8c5-be85-4e54-8167-d5b61b6f9e89")
-		(property "Reference" "#PWR067"
-			(at 38.1 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 38.1 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d95d8ebe-db41-4f22-993f-bd282a4ce21f")
-		)
-		(instances
-			(project "ESPhome_greenhouse_controller"
-				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 354.33 294.64 0)
 		(mirror y)
@@ -17498,73 +17736,6 @@
 			(project "ESPhome_greenhouse_controller"
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 44.45 69.85 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "352524ba-8595-44cf-8524-176dd7ebd94f")
-		(property "Reference" "#PWR058"
-			(at 44.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 44.45 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82d6078e-d2ff-4804-930a-71285a17f6b4")
-		)
-		(instances
-			(project "ESPhome_greenhouse_controller"
-				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -20048,6 +20219,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 439.42 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59eb957e-f3b2-43eb-a22b-32d9888dd348")
+		(property "Reference" "C8"
+			(at 440.436 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 435.864 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 440.3852 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 439.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 439.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5af83e8f-a2c5-455f-9d67-91b56738c1ca")
+		)
+		(pin "1"
+			(uuid "42f9ecd6-c8b6-43ba-a713-e4bb8d8a54cc")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 519.43 43.18 0)
 		(unit 1)
@@ -21071,6 +21311,72 @@
 			(project "ESPhome_greenhouse_controller"
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 439.42 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b8a16df-a705-4d76-900e-f4a622819da8")
+		(property "Reference" "#PWR069"
+			(at 439.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 439.293 64.0842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 439.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 439.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 439.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06e56cea-c106-4daa-b537-9c455a50d4ad")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -24574,6 +24880,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 38.1 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afbdeba1-96d5-419b-be7b-9d9dec139e1c")
+		(property "Reference" "#PWR067"
+			(at 38.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e373615-1d81-4500-b641-f3b576b811d6")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 25.4 120.65 0)
 		(unit 1)
@@ -25161,6 +25533,75 @@
 			(project "ESPhome_greenhouse_controller"
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 549.91 161.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd9dcea3-7d54-498f-bf0a-b4092545cd27")
+		(property "Reference" "JP1"
+			(at 549.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 549.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 549.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 549.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 549.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6799bb1c-c227-47ff-a8e2-05da1c749c66")
+		)
+		(pin "1"
+			(uuid "b291e173-4ac3-4e4d-af5d-bc8ecbb4f703")
+		)
+		(instances
+			(project ""
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -27548,6 +27989,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 44.45 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb530174-386f-4b4f-a0d8-600c7ebb5ba2")
+		(property "Reference" "#PWR058"
+			(at 44.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07e846ce-a5db-4526-a7b1-54473b213a88")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
 		(at 233.68 33.02 0)
 		(mirror y)
@@ -27695,6 +28202,75 @@
 			(project "ESPhome_greenhouse_controller"
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 290.83 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb6f120d-5544-42df-90cb-03d64a54b72b")
+		(property "Reference" "C7"
+			(at 289.5599 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 292.0999 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 294.64 68.8848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 290.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6a8ebe8-e2e4-4fd5-adda-ee3e8f9bb44e")
+		)
+		(pin "1"
+			(uuid "7c83f109-1262-432d-ae5f-bee258c6cba2")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -28327,6 +28903,72 @@
 			(project "ESPhome_greenhouse_controller"
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 295.91 69.85 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3a01b13-0210-47c2-988c-22f87f3ff22b")
+		(property "Reference" "#PWR068"
+			(at 302.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 300.3042 69.977 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 295.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f9e1eeb-03c6-4dc1-883a-14945dea972e")
+		)
+		(instances
+			(project "ESPhome_greenhouse_controller"
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
