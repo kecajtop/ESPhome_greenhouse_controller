@@ -3684,20 +3684,20 @@
 				)
 			)
 		)
-		(symbol "Transistor_Array:ULN2003A"
+		(symbol "Transistor_Array:ULN2803A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 15.875 0)
+				(at 0 13.335 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "ULN2003A"
-				(at 0 13.97 0)
+			(property "Value" "ULN2803A"
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3705,7 +3705,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.27 -13.97 0)
+				(at 1.27 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3714,7 +3714,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2803a.pdf"
 				(at 2.54 -5.08 0)
 				(effects
 					(font
@@ -3723,7 +3723,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(property "Description" "Darlington Transistor Arrays, SOIC18/DIP18"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3732,7 +3732,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "darlington transistor array"
+			(property "ki_keywords" "Darlington transistor array"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3741,7 +3741,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SSOP*4.4x5.2mm*P0.65mm* TSSOP*4.4x5mm*P0.65mm* SOIC*W*5.3x10.2mm*P1.27mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*7.5x11.6mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3750,10 +3750,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "ULN2003A_0_1"
+			(symbol "ULN2803A_0_1"
 				(rectangle
-					(start -7.62 -12.7)
-					(end 7.62 12.7)
+					(start -7.62 -15.24)
+					(end 7.62 10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3855,7 +3855,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 5.08) (xy -0.508 10.16) (xy 2.921 10.16)
+						(xy -0.508 5.08) (xy -0.508 7.62) (xy 2.286 7.62)
 					)
 					(stroke
 						(width 0)
@@ -3890,7 +3890,7 @@
 					)
 				)
 			)
-			(symbol "ULN2003A_1_1"
+			(symbol "ULN2803A_1_1"
 				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -3909,6 +3909,42 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "O8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin open_collector line
 					(at 10.16 -10.16 180)
 					(length 2.54)
@@ -3919,7 +3955,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3937,7 +3973,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3955,7 +3991,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3973,7 +4009,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3991,7 +4027,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4009,7 +4045,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4027,7 +4063,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4143,10 +4179,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -15.24 90)
+				(pin input line
+					(at -10.16 -12.7 0)
 					(length 2.54)
-					(name "GND"
+					(name "I8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4161,10 +4197,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 10.16 180)
+				(pin power_in line
+					(at 0 -17.78 90)
 					(length 2.54)
-					(name "COM"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4172,6 +4208,196 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:BC817"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC817"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC817_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC817_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -23658,6 +23884,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 449.58 316.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76c5f29c-bb94-4d1e-8458-4b67a09259c2")
+		(property "Reference" "Q1"
+			(at 454.66 314.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817"
+			(at 454.66 317.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 454.66 318.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 449.58 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 449.58 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ac5ea94-1bff-41e8-8f09-a5862709ae32")
+		)
+		(pin "2"
+			(uuid "56f039d9-79fa-4dba-8d76-74534e53e53c")
+		)
+		(pin "3"
+			(uuid "a63dbbd8-b0e1-49cf-895f-9480f209a100")
+		)
+		(instances
+			(project ""
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
 		(at 359.41 271.78 90)
 		(unit 1)
@@ -26383,8 +26685,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_Array:ULN2003A")
-		(at 450.85 232.41 0)
+		(lib_id "Transistor_Array:ULN2803A")
+		(at 450.85 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26400,7 +26702,7 @@
 				)
 			)
 		)
-		(property "Value" "ULN2003A"
+		(property "Value" "ULN2803A"
 			(at 450.85 217.17 0)
 			(effects
 				(font
@@ -26408,7 +26710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm"
 			(at 452.12 246.38 0)
 			(effects
 				(font
@@ -26418,8 +26720,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
-			(at 453.39 237.49 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2803a.pdf"
+			(at 453.39 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26427,8 +26729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
-			(at 450.85 232.41 0)
+		(property "Description" "Darlington Transistor Arrays, SOIC18/DIP18"
+			(at 450.85 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26483,6 +26785,12 @@
 		)
 		(pin "16"
 			(uuid "6351b25a-4074-47d7-b5d3-8e3973878798")
+		)
+		(pin "18"
+			(uuid "784ecb8d-6246-41ad-af0f-017925d44798")
+		)
+		(pin "17"
+			(uuid "eeca82b1-ed95-411c-ae9e-319102e26d55")
 		)
 		(instances
 			(project "ESPhome_greenhouse_controller"

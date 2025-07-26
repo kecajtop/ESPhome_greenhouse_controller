@@ -1,4 +1,4 @@
-23808663369963846
+23964227530721212
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88850,6 +88850,636 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SNES
+24TFBGA
+TFBGA 24pin 5X5 6X8mm Pitch 1.0
+
+0
+24
+24
+SNES
+1210L200SLYR
+
+
+0
+2
+2
+SNES
+4056E_LiIon_loader
+
+
+0
+6
+6
+SNES
+4056E_LiIon_loader_SMT
+
+
+0
+6
+6
+SNES
+4056E_LiIon_loader_prot
+
+
+0
+6
+6
+SNES
+16850_cell_casket
+
+
+0
+2
+2
+SNES
+47151-0001
+<b>47151-0001</b><br>
+
+0
+23
+20
+SNES
+1658998-1
+8 Position Circular Connector Receptacle, Female Sockets Solder
+CONN RCPT FMALE MINI DIN 8P SLDR
+0
+11
+9
+SNES
+5145154-1
+
+
+0
+122
+122
+SNES
+10025026-10003TLF
+164 Position Female Connector PCI Express™ Gold 0.039" (1.00mm) Black, straddle mount
+
+0
+164
+164
+SNES
+BGA12N40P3X4_119X159X62N
+
+
+0
+12
+12
+SNES
+BGA80P96C6X16_800X1400X110
+
+
+0
+96
+96
+SNES
+BUS_PCI_Express_Mini
+Mini-PCI Express bus connector (https://s3.amazonaws.com/fit-iot/download/facet-cards/documents/PCI_Express_miniCard_Electromechanical_specs_rev1.2.pdf#page=11)
+mini pcie
+0
+54
+53
+SNES
+BUS_PCI_Express_Mini_Dual
+Mini-PCI Express bus connector full size with dual clips (https://s3.amazonaws.com/fit-iot/download/facet-cards/documents/PCI_Express_miniCard_Electromechanical_specs_rev1.2.pdf#page=28)
+mini pcie
+0
+54
+53
+SNES
+BUS_PCI_Express_Mini_Full
+Mini-PCI Express bus connector full size with clips (https://s3.amazonaws.com/fit-iot/download/facet-cards/documents/PCI_Express_miniCard_Electromechanical_specs_rev1.2.pdf#page=24)
+mini pcie
+0
+54
+53
+SNES
+BUS_PCI_Express_Mini_Half
+Mini-PCI Express bus connector half size with clips (https://s3.amazonaws.com/fit-iot/download/facet-cards/documents/PCI_Express_miniCard_Electromechanical_specs_rev1.2.pdf#page=25)
+mini pcie
+0
+54
+53
+SNES
+BUS_PCIexpress
+PCIexpress Bus Edge Connector
+PCIexpress Bus Edge Connector
+0
+70
+36
+SNES
+CUI_SDF-80J_copy
+
+
+0
+10
+10
+SNES
+CUI_SDS-80J
+
+
+0
+10
+10
+SNES
+DIN41612_B_2x32_Horizontal
+DIN 41612 connector, type B, horizontal, 32 pins wide, 2 rows, full configuration
+DIN 41512 IEC 60603 B
+0
+64
+64
+SNES
+DIN41612_B_2x32_Vertical
+DIN 41612 connector, type B, vertical, 32 pins wide, 2 rows, full configuration
+DIN 41512 IEC 60603 B
+0
+64
+64
+SNES
+DIPS1549W45P254L3937H1067Q28
+
+
+0
+28
+28
+SNES
+DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+11
+10
+SNES
+Diodes_W-QFN-3060-40_3x6mm
+QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/bq24133.pdf#page=40)
+QFN NoLead
+0
+41
+41
+SNES
+Fuse_SMD1206_HandSoldering
+Fuse, Sicherung, SMD1206, Littlefuse-Wickmann 433 Series, Hand Soldering,
+Fuse Sicherung SMD1206 Littlefuse-Wickmann 433 Series Hand Soldering 
+0
+2
+2
+SNES
+Fuse_SMD1206_Reflow
+Fuse, Sicherung, SMD1206, Littlefuse-Wickmann, Reflow,
+Fuse Sicherung SMD1206 Littlefuse-Wickmann Reflow 
+0
+2
+2
+SNES
+Fuse_SMD1206_Wave
+Fuse, Sicherung, SMD1206, Littlefuse-Wickmann 433 Series, Wave,
+Fuse Sicherung SMD1206 Littlefuse-Wickmann 433 Series Wave 
+0
+2
+2
+SNES
+GameBoy_Cartridge_AGB_1x32_P1.50mm_Socket_Horizontal
+Game Boy cartridge slot, Super Game Boy and Super Game Boy 2
+gameboy cartridge slot
+0
+32
+32
+SNES
+GameBoy_Cartridge_AGS_1x32-1MP_P1.50mm_Socket_Horizontal
+Game Boy cartridge slot, Game Boy Advance SP
+gameboy cartridge slot
+0
+34
+33
+SNES
+GameBoy_Cartridge_DMG_1x32_P1.50mm_Socket_Horizontal
+Game Boy cartridge slot, original Game Boy
+gameboy cartridge slot
+0
+32
+32
+SNES
+GameBoy_LinkPort_DMG_Horizontal
+Game Boy link port, original Game Boy
+game boy link port
+0
+8
+7
+SNES
+GameBoy_LinkPort_MGB_Horizontal
+
+
+0
+8
+7
+SNES
+HDMI_A_Amphenol_10029449-111RLF
+HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf
+HDMI Molex Type A
+0
+23
+20
+SNES
+HDMI_A_Female_2000-1-2-41-00-BK
+http://media.digikey.com/pdf/Data%20Sheets/CNC%20Tech%20PDFs/HDMI_A_Female_2000-1-2-41-00-BK_Dwg.pdf
+
+0
+25
+20
+SNES
+HUCARD-1250MIL
+
+
+0
+38
+38
+SNES
+IDT71V416S10PHG8
+
+
+0
+44
+44
+SNES
+IS61WV25616BLL-10BLI
+
+
+0
+48
+48
+SNES
+LED_Avago_PLCC6_3x2.8mm
+https://docs.broadcom.com/docs/AV02-3793EN
+LED Avago PLCC-6 ASMT-YTB7-0AA02
+0
+6
+6
+SNES
+L_Wuerth_LQS-4025
+Inductor, Wuerth Elektronik, Wuerth_LQS-4040, 4.0mmx4.0mm
+inductor Wuerth smd
+0
+2
+2
+SNES
+Label_Polykubos
+
+
+0
+0
+0
+SNES
+MEGADRIVE-CART-CONN
+
+
+0
+64
+64
+SNES
+MEM2012S
+TDK EMI Filter MEM2012S series T network (0805)
+Mini-Circuits Filter SMD 0805 T
+0
+3
+3
+SNES
+MP1584_buck_module
+
+
+0
+8
+4
+SNES
+MT3608_module
+
+
+0
+4
+4
+SNES
+MT3608_module_SMT
+
+
+0
+7
+4
+SNES
+MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias
+
+Texas MicroSiP NoLead
+0
+16
+9
+SNES
+N95_battery_connector
+
+
+0
+3
+3
+SNES
+NES-CART-CONN
+
+
+0
+72
+72
+SNES
+NES_Controller_Connector_RA
+
+
+0
+7
+7
+SNES
+NES_Controller_Connector_Straight
+
+
+0
+7
+7
+SNES
+Oscillator_SMD_4Pin_3.2x2.5mm
+
+SMD SMT crystal oscillator
+0
+4
+4
+SNES
+PC-Engine_slot
+Through hole straight pin header, 1x38, 1.27mm pitch, single row
+Through hole pin header THT 1x38 1.27mm single row
+0
+42
+39
+SNES
+PCIE-164-10025026-10103TLF
+
+
+0
+166
+165
+SNES
+PCIE-164POS-CARD-EDGE
+
+
+0
+164
+164
+SNES
+PinHeader_1x06_P2.54mm_Vertical_STM32
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+SNES
+PinHeader_2x20_P1.27mm_Box_Vertical
+Through hole straight pin header, 2x20, 1.27mm pitch, double rows
+Through hole pin header THT 2x20 1.27mm double row
+0
+40
+40
+SNES
+QFN-24-1EP_3x3mm_P0.4mm
+QFN, 24 Pin (https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+24
+24
+SNES
+QFN-48-1EP_8x8mm_P0.5mm_EP6.2x6.2mm
+QFN, 48 Pin (https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf#page=49), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+74
+49
+SNES
+QFN-48-1EP_8x8mm_P0.5mm_EP6.2x6.2mm_ThermalVias
+QFN, 48 Pin (https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf#page=49), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+111
+49
+SNES
+QFN50P700X700X100-49N
+
+
+0
+49
+49
+SNES
+QMTECH_XC7A100T
+
+
+0
+134
+134
+SNES
+QMTECH_XC7A100T_NoJTAG
+
+
+0
+128
+128
+SNES
+SMD-2_3.2x2.5mm
+http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf
+
+0
+2
+2
+SNES
+SMD-2_3.2x2.5mm1
+http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf
+
+0
+2
+2
+SNES
+SNES_Cartridge_Connector
+Through hole straight pin header, 2x31, 2.5mm pitch, double rows
+Through hole pin header THT 2x31 2.5mm double row
+0
+62
+62
+SNES
+SNES_Controller_Connector
+7 way throught hole conenctor for SNES controllers
+
+0
+7
+7
+SNES
+SNES_Controller_Connector_RA_Left
+7 way throught hole conenctor for SNES controllers
+
+0
+7
+7
+SNES
+SNES_Controller_Connector_RA_Right
+7 way throught hole conenctor for SNES controllers
+
+0
+7
+7
+SNES
+SOIC-8_5.23x5.23mm_P1.27mm
+SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+SNES
+SW_CuK_OS102011MA1QN1_SPDT_Angled
+CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+5
+3
+SNES
+Samtec_SIBF-14-F-S-AB
+Board to Board & Mezzanine Connectors .050" One-Piece Interface 7 pos 1.27mm pitch
+Board to Board & Mezzanine Connectors .050" One-Piece Interface 7 pos 1.27mm pitch
+0
+14
+14
+SNES
+TE0711
+Through hole straight socket strip, 2x100 + 1x60
+TE0725 2x2x25 2.54mm double row
+0
+264
+264
+SNES
+TE0725
+Through hole straight socket strip, 2x25, 2.54mm pitch, double rows
+TE0725 2x2x25 2.54mm double row
+0
+100
+100
+SNES
+TL2230xxFxxx
+
+
+0
+6
+6
+SNES
+TSMT8
+8-pin TSMT8 package Small Surface Mount Package (TSMT8).
+TSMT8
+0
+8
+8
+SNES
+Texas_R-PWSON-N8_EP0.4x1.2mm
+http://www.ti.com/lit/ds/symlink/tpd4f003.pdf
+WSON SMD
+0
+11
+9
+SNES
+Texas_S-PWSON-N10_ThermalVias
+3x3mm Body, 0.5mm Pitch, S-PWSON-N10, DSC, http://www.ti.com/lit/ds/symlink/tps63060.pdf
+0.5 S-PWSON-N10 DSC
+0
+47
+11
+SNES
+UFDFN-16
+
+
+0
+20
+17
+SNES
+USB_A_TE_2Port_5787617-1
+USB-A two stacked horizontal receptacle, through-hole (https://www.cuidevices.com/product/resource/uj2-adh-th.pdf)
+USB-A CUI stacked horizontal through-hole
+0
+12
+9
+SNES
+USB_A_TE_292303-1
+https://www.te.com/usa-en/product-292303-1.datasheet.pdf
+USB-A receptacle horizontal through-hole
+0
+6
+5
+SNES
+USB_C_Receptacle_GCT_USB4085
+USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf
+USB Type-C Receptacle Through-hole Right angle
+0
+20
+17
+SNES
+USB_C_Receptacle_GT-USB-7010ASV
+USB 2.0 Type C Receptacle
+USB Type-C Receptacle SMT Right angle
+0
+20
+17
+SNES
+Vishay_PowerPAK_SC70-6L_Single
+Vishay PowerPAK SC70 single transistor package http://www.vishay.com/docs/70486/70486.pdf
+powerpak sc70 sc-70
+0
+10
+3
+SNES
+WLCSP12
+12 bumps: 1.36x1.33x0.51mm, 0.4mm pitch
+
+0
+12
+12
+SNES
+XL6009_module
+
+
+0
+4
+4
+SNES
+XL6009_module_SMT
+
+
+0
+7
+4
+SNES
+ZD1006-old
+
+
+0
+36
+36
+SNES
+microSD_HC_Hirose_DM3BT-DSF-PEJS
+Micro SD, SMD, reverse on-board, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3BT-DSF-PEJS/category/Drawing%20(2D)/doc_file_id/44097/?file_category_id=6&item_id=06090029900&is_series=)
+Micro SD
+0
+16
+11
+SNES
+microSD_HC_Molex_502774-0891
+1.10mm Pitch microSD Memory Card Connector, Surface Mount, Push-Pull Type, 1.42mm Height, with Detect Switch
+microSD SD molex
+0
+14
+11
+SNES
+microSD_HC_Molex_503398-1892
+1.10mm Pitch microSD Memory Card Connector, Surface Mount, Push-Pull Type, 1.42mm Height, with Detect Switch
+microSD SD molex
+0
+14
+11
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -96613,6 +97243,27 @@ Varistor VF
 0
 2
 2
+kadex
+ZD1006
+
+
+0
+36
+36
+kadex
+ZD1006_narrow
+
+
+0
+36
+36
+kadex
+ZD1008
+
+
+0
+56
+54
 lib
 XCVR_ESP32-S3-DEVKITC-1-N8R2
 
