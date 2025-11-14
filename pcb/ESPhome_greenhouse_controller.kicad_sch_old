@@ -16774,15 +16774,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47023"
-			(at 289.2141 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "22"
 			(uuid "99e3120e-864d-4465-95f5-a079847feadf")
 		)
@@ -22337,15 +22328,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2864837"
-			(at 468.376 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "913d1847-d176-46e5-a045-82a35a41da4c")
 		)
@@ -22946,15 +22928,6 @@
 		)
 		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, VSSOP-10"
 			(at 454.66 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2864837"
-			(at 468.376 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26213,15 +26186,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C9683"
-			(at 450.85 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "14"
 			(uuid "b3762a07-4264-4c21-b36a-794366d4e374")
 		)
@@ -26825,15 +26789,6 @@
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28"
 			(at 287.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C47023"
-			(at 289.2141 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
