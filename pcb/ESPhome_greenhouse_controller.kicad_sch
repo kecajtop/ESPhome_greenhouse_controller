@@ -1333,10 +1333,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_Expansion:MCP23017_SO"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Interface_Expansion:TCA9555DBR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1348,7 +1345,7 @@
 					)
 				)
 			)
-			(property "Value" "MCP23017_SO"
+			(property "Value" "TCA9555DBR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1356,28 +1353,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
-				(at 5.08 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
-				(at 5.08 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28"
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+				(at 26.67 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1385,7 +1362,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "I2C parallel port expander"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9555.pdf"
+				(at -12.7 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1394,7 +1380,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*7.5x17.9mm*P1.27mm*"
+			(property "ki_keywords" "ti parallel port"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1403,7 +1389,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP23017_SO_0_1"
+			(property "ki_fp_filters" "SSOP*5.3x8.2mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCA9555DBR_0_1"
 				(rectangle
 					(start -12.7 22.86)
 					(end 12.7 -22.86)
@@ -1416,7 +1411,7 @@
 					)
 				)
 			)
-			(symbol "MCP23017_SO_1_1"
+			(symbol "TCA9555DBR_1_1"
 				(pin bidirectional line
 					(at -17.78 20.32 0)
 					(length 5.08)
@@ -1427,7 +1422,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1438,32 +1433,14 @@
 				(pin input line
 					(at -17.78 17.78 0)
 					(length 5.08)
-					(name "SCK"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "INTB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1471,35 +1448,17 @@
 						)
 					)
 				)
-				(pin tri_state line
-					(at -17.78 2.54 0)
+				(pin open_collector line
+					(at -17.78 15.24 0)
 					(length 5.08)
-					(name "INTA"
+					(name "~{INT}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1517,7 +1476,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1535,7 +1494,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1553,45 +1512,7 @@
 							)
 						)
 					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 15.24 0)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 12.7 0)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1602,14 +1523,14 @@
 				(pin power_in line
 					(at 0 27.94 270)
 					(length 5.08)
-					(name "VDD"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1620,14 +1541,14 @@
 				(pin power_in line
 					(at 0 -27.94 90)
 					(length 5.08)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1638,61 +1559,7 @@
 				(pin bidirectional line
 					(at 17.78 20.32 180)
 					(length 5.08)
-					(name "GPB0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 17.78 180)
-					(length 5.08)
-					(name "GPB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 15.24 180)
-					(length 5.08)
-					(name "GPB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 12.7 180)
-					(length 5.08)
-					(name "GPB3"
+					(name "P00"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1708,9 +1575,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 10.16 180)
+					(at 17.78 17.78 180)
 					(length 5.08)
-					(name "GPB4"
+					(name "P01"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1726,9 +1593,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 7.62 180)
+					(at 17.78 15.24 180)
 					(length 5.08)
-					(name "GPB5"
+					(name "P02"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1744,9 +1611,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 5.08 180)
+					(at 17.78 12.7 180)
 					(length 5.08)
-					(name "GPB6"
+					(name "P03"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1762,9 +1629,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 2.54 180)
+					(at 17.78 10.16 180)
 					(length 5.08)
-					(name "GPB7"
+					(name "P04"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1780,16 +1647,70 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -2.54 180)
+					(at 17.78 7.62 180)
 					(length 5.08)
-					(name "GPA0"
+					(name "P05"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "21"
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "P06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "P07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "P10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1800,14 +1721,14 @@
 				(pin bidirectional line
 					(at 17.78 -5.08 180)
 					(length 5.08)
-					(name "GPA1"
+					(name "P11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "22"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1818,14 +1739,14 @@
 				(pin bidirectional line
 					(at 17.78 -7.62 180)
 					(length 5.08)
-					(name "GPA2"
+					(name "P12"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "23"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1836,14 +1757,14 @@
 				(pin bidirectional line
 					(at 17.78 -10.16 180)
 					(length 5.08)
-					(name "GPA3"
+					(name "P13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "24"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1854,14 +1775,14 @@
 				(pin bidirectional line
 					(at 17.78 -12.7 180)
 					(length 5.08)
-					(name "GPA4"
+					(name "P14"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "25"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1872,14 +1793,14 @@
 				(pin bidirectional line
 					(at 17.78 -15.24 180)
 					(length 5.08)
-					(name "GPA5"
+					(name "P15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "26"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1890,14 +1811,14 @@
 				(pin bidirectional line
 					(at 17.78 -17.78 180)
 					(length 5.08)
-					(name "GPA6"
+					(name "P16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "27"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1908,14 +1829,14 @@
 				(pin bidirectional line
 					(at 17.78 -20.32 180)
 					(length 5.08)
-					(name "GPA7"
+					(name "P17"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9515,6 +9436,12 @@
 		(uuid "20c4f110-14ca-4feb-8d35-cf21658ba248")
 	)
 	(junction
+		(at 287.02 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2348d06a-d4e4-41f8-b26f-0bc1b0747e22")
+	)
+	(junction
 		(at 554.99 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9611,12 +9538,6 @@
 		(uuid "4c252c14-e191-41c2-88cd-bd160514b44a")
 	)
 	(junction
-		(at 269.24 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5019bbf3-c8cf-47d9-85e2-bb620e5bfbe6")
-	)
-	(junction
 		(at 519.43 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9683,12 +9604,6 @@
 		(uuid "6af48f80-1cf4-43bf-9f1a-ebbbd90d3d7d")
 	)
 	(junction
-		(at 287.02 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c7a8d95-93b0-488d-89a6-22a152204215")
-	)
-	(junction
 		(at 389.89 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9743,22 +9658,10 @@
 		(uuid "7e3121b2-5925-4995-a4fd-d1f8f112ba84")
 	)
 	(junction
-		(at 269.24 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e6bd117-ff3c-4050-bdb9-ce5b31c73f93")
-	)
-	(junction
 		(at 560.07 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80b8c414-a41d-442c-b38a-10d619504aef")
-	)
-	(junction
-		(at 287.02 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "812e9505-c07e-405d-9ddf-70fc3e61ce2b")
 	)
 	(junction
 		(at 353.06 114.3)
@@ -9807,6 +9710,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d0c86f1-e786-47be-9598-81e550b84218")
+	)
+	(junction
+		(at 287.02 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e5ae251-65ca-4cbc-a0ff-1e507a7cca77")
 	)
 	(junction
 		(at 554.99 40.64)
@@ -9969,12 +9878,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b5cb1b-0ccb-4cc2-9edb-f964c1301867")
-	)
-	(junction
-		(at 259.08 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4be8817-c369-49ee-a9c4-f70846c0ce29")
 	)
 	(junction
 		(at 287.02 149.86)
@@ -10267,16 +10170,6 @@
 			(type default)
 		)
 		(uuid "0eb72c04-6226-42ea-be87-bf82bb93b7b8")
-	)
-	(wire
-		(pts
-			(xy 266.7 104.14) (xy 269.24 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec90617-5756-4da4-93db-f9d9b6b3c02a")
 	)
 	(wire
 		(pts
@@ -10930,7 +10823,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 179.07) (xy 257.81 179.07)
+			(xy 269.24 166.37) (xy 257.81 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12310,16 +12203,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 184.15) (xy 269.24 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7864d2eb-b1c6-426d-a08b-710f1c3b4497")
-	)
-	(wire
-		(pts
 			(xy 358.14 95.25) (xy 351.79 95.25)
 		)
 		(stroke
@@ -13010,7 +12893,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 99.06) (xy 257.81 99.06)
+			(xy 269.24 86.36) (xy 257.81 86.36)
 		)
 		(stroke
 			(width 0)
@@ -13670,16 +13553,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 96.52) (xy 269.24 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6d889f3-0a11-4de8-b256-a1ffddb57e3b")
-	)
-	(wire
-		(pts
 			(xy 519.43 232.41) (xy 513.08 232.41)
 		)
 		(stroke
@@ -13697,16 +13570,6 @@
 			(type default)
 		)
 		(uuid "c725d1d1-ba31-4e73-b956-b7d2cb6f174a")
-	)
-	(wire
-		(pts
-			(xy 269.24 176.53) (xy 269.24 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c73c1e9c-cf1a-4b27-961c-2607f72dabbe")
 	)
 	(wire
 		(pts
@@ -15869,7 +15732,7 @@
 		(uuid "c646d3a4-3e9c-4802-ac19-53c8f0f6217d")
 	)
 	(label "INT"
-		(at 257.81 99.06 0)
+		(at 257.81 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16179,7 +16042,7 @@
 		(uuid "fadcac45-e497-451d-a322-6c2e4eae81a3")
 	)
 	(label "INT"
-		(at 257.81 179.07 0)
+		(at 257.81 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16722,7 +16585,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_Expansion:MCP23017_SO")
+		(lib_id "Interface_Expansion:TCA9555DBR")
 		(at 287.02 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16730,9 +16593,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08936440-29c1-414d-b69a-c0937b135e67")
-		(property "Reference" "U4"
-			(at 289.2141 153.67 0)
+		(uuid "0ad41960-b992-4723-86f9-a1a030d6321c")
+		(property "Reference" "U2"
+			(at 289.1633 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16740,8 +16603,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP23017_SO"
-			(at 289.2141 156.21 0)
+		(property "Value" "TCA9555DBR"
+			(at 289.1633 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16749,27 +16612,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
-			(at 292.1 207.01 0)
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+			(at 313.69 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
-			(at 292.1 209.55 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9555.pdf"
+			(at 274.32 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28"
+		(property "Description" "16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24"
 			(at 287.02 181.61 0)
 			(effects
 				(font
@@ -16778,103 +16639,82 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47023"
-			(at 289.2141 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "22"
-			(uuid "99e3120e-864d-4465-95f5-a079847feadf")
-		)
-		(pin "20"
-			(uuid "045f5bb5-70fe-4b84-9e77-e782ae76a4ea")
-		)
-		(pin "12"
-			(uuid "7ba3374c-ba76-40e9-826f-190e01669557")
-		)
-		(pin "21"
-			(uuid "2cf26e4f-4918-476b-97b8-399f7a72e081")
-		)
-		(pin "27"
-			(uuid "be883621-51e2-4af7-ac0b-79d43634cc6d")
-		)
-		(pin "17"
-			(uuid "25ae8685-f1bc-4239-aa12-779cd23ccccb")
-		)
-		(pin "4"
-			(uuid "c009c16a-99a5-401f-99c0-d41e899a16aa")
-		)
-		(pin "19"
-			(uuid "80810259-a2bf-4882-a6c8-a6381fc69a2e")
-		)
-		(pin "25"
-			(uuid "765a5e1d-a19b-4aff-95ec-8c985d12b0e2")
-		)
-		(pin "2"
-			(uuid "d0eddb8b-bf4f-4afb-8283-9cb4db1208c4")
-		)
-		(pin "3"
-			(uuid "51aba957-9b60-4ae5-b3d9-2eb0b1af03b7")
+		(pin "5"
+			(uuid "438f4156-535d-48d1-ba91-4c33a2dbe3b3")
 		)
 		(pin "11"
-			(uuid "5323a319-1a80-4d5a-90e6-c8638040e200")
-		)
-		(pin "10"
-			(uuid "255ff097-d141-4747-8b40-de255e665601")
-		)
-		(pin "16"
-			(uuid "f62ac60f-a6ac-49e2-a7d0-a042fcb5c4f3")
-		)
-		(pin "5"
-			(uuid "dd3ed686-d5c8-4cbe-b86e-5f02c4b71c3f")
-		)
-		(pin "6"
-			(uuid "12bfa308-4b89-465a-826d-215c9a1105e1")
+			(uuid "52323ea0-5187-4f17-ade5-79be56ef2deb")
 		)
 		(pin "14"
-			(uuid "f681ce86-7cb4-4cdc-aaaa-fc6ce6f3d9fb")
+			(uuid "cf582149-14a8-4602-88c3-42144cab6194")
 		)
-		(pin "15"
-			(uuid "85928c13-0c8c-46ad-b370-e7d1dd7120da")
-		)
-		(pin "26"
-			(uuid "a822ec26-4736-4349-9fd4-93dd1da7d434")
-		)
-		(pin "24"
-			(uuid "068f58fe-e8e7-4933-b882-a5c736e00857")
-		)
-		(pin "13"
-			(uuid "5d359462-37cb-4b3b-9c73-2a8b67b6bdea")
-		)
-		(pin "23"
-			(uuid "756e9c6a-a6c0-4edc-b42f-a172447f5d0d")
-		)
-		(pin "28"
-			(uuid "89c05ad1-1135-41ba-8c05-df4c477dd8a5")
-		)
-		(pin "7"
-			(uuid "4e8c5fcd-2b7a-499c-9991-f8a01bda0eed")
-		)
-		(pin "8"
-			(uuid "96c998b7-e038-4563-84ab-0bf44cd4353d")
-		)
-		(pin "1"
-			(uuid "d91aa878-9e1e-4944-a1ce-f7de9afd136a")
-		)
-		(pin "9"
-			(uuid "c0cedabc-21e5-4cbe-9a7f-83dbfd169b56")
+		(pin "16"
+			(uuid "d13675fc-fbac-471a-b45a-ec80099bf961")
 		)
 		(pin "18"
-			(uuid "87c471f5-cb52-4ed7-9c9a-b537208a63aa")
+			(uuid "980dd537-726d-49c2-96d9-8d5753357d59")
+		)
+		(pin "20"
+			(uuid "fba302fa-4c59-4c76-9b19-2b3d505ad508")
+		)
+		(pin "4"
+			(uuid "804c8293-700e-4e04-94ec-d02630d4615c")
+		)
+		(pin "21"
+			(uuid "071e5867-40e4-4b59-a9f6-efc8c84d920f")
+		)
+		(pin "22"
+			(uuid "ff7da714-9fe5-4dae-84ce-e950e97aacb9")
+		)
+		(pin "24"
+			(uuid "15ccc67f-c361-40ca-a314-ca0f627da654")
+		)
+		(pin "12"
+			(uuid "3214fdc4-ce34-42d2-bd03-aa5c8b91bf9b")
+		)
+		(pin "3"
+			(uuid "14d82a0b-e70b-409b-b31a-73d3b157afec")
+		)
+		(pin "6"
+			(uuid "b5e7ecc4-9f8c-4fa6-a9ec-c7db0c1e58eb")
+		)
+		(pin "7"
+			(uuid "415c49dd-717c-4d28-93bf-44a701c1b2d3")
+		)
+		(pin "2"
+			(uuid "78a100d1-f0c6-439c-8247-3fae2ec7c45f")
+		)
+		(pin "8"
+			(uuid "0a665f25-c7a4-4942-b56c-a34aa74b99d1")
+		)
+		(pin "9"
+			(uuid "8e0e7e9f-fd88-4728-a991-21b2048299f5")
+		)
+		(pin "1"
+			(uuid "e14c7ba3-6ec1-4394-a220-b42dc6a437e5")
+		)
+		(pin "23"
+			(uuid "6811d872-4381-43f6-ad9a-67ffc5090e23")
+		)
+		(pin "10"
+			(uuid "e8b799e3-697f-4b58-979f-6f59dfb27a7a")
+		)
+		(pin "13"
+			(uuid "d9ffc69c-b7af-44b7-ad1c-9633bd779a6d")
+		)
+		(pin "15"
+			(uuid "1391f829-69b9-4fa6-bd29-4429650ce401")
+		)
+		(pin "17"
+			(uuid "c47ff219-3570-4f2a-b399-866aaad0e98e")
+		)
+		(pin "19"
+			(uuid "b564ba59-8a90-40f1-b728-839e1305a4f6")
 		)
 		(instances
 			(project "ESPhome_greenhouse_controller"
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -20522,155 +20362,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
-		(at 262.89 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45d28d59-cd57-4517-abd1-0cec86640268")
-		(property "Reference" "R28"
-			(at 267.716 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 248.92 93.0148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
-			(at 262.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
-			(at 262.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value1" "4.7k"
-			(at 262.89 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
-			(at 245.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 245.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-074K7L"
-			(at 245.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 252.73 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "YAG3613CT-ND"
-			(at 245.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.08"
-			(at 245.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0603"
-			(at 245.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23162"
-			(at 261.6199 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0086f52f-efcf-4e85-aecb-b8eaf484f588")
-		)
-		(pin "2"
-			(uuid "64c36e21-bc76-4ab8-b351-6a1b755e7612")
-		)
-		(instances
-			(project "ESPhome_greenhouse_controller"
-				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 457.2 33.02 90)
 		(unit 1)
@@ -22216,73 +21907,6 @@
 			(project "ESPhome_greenhouse_controller"
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 259.08 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b45bec2-eca1-4c2f-8b04-f56267129a2a")
-		(property "Reference" "#PWR046"
-			(at 262.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 255.27 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 259.08 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe3f08d4-dbe7-410e-a9d6-7e749f0bcaf1")
-		)
-		(instances
-			(project "ESPhome_greenhouse_controller"
-				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -25220,155 +24844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
-		(at 262.89 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f39f7df-d4e5-474f-820a-00f37a369990")
-		(property "Reference" "R27"
-			(at 267.716 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
-			(at 257.81 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 248.92 173.0248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
-			(at 262.89 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
-			(at 262.89 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value1" "4.7k"
-			(at 262.89 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
-			(at 245.11 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 245.11 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-074K7L"
-			(at 245.11 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 252.73 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "YAG3613CT-ND"
-			(at 245.11 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.08"
-			(at 245.11 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0603"
-			(at 245.11 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23162"
-			(at 261.6199 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6c627dc-8734-455b-ad25-2cd7168ece8b")
-		)
-		(pin "2"
-			(uuid "3ea56623-67f4-4829-92af-e165d9fe4b12")
-		)
-		(instances
-			(project "ESPhome_greenhouse_controller"
-				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 554.99 27.94 0)
 		(unit 1)
@@ -26027,6 +25502,142 @@
 			(project "ESPhome_greenhouse_controller"
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:TCA9555DBR")
+		(at 287.02 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a5fbd70-01f5-4344-bf4f-f565ae74595d")
+		(property "Reference" "U19"
+			(at 289.1633 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA9555DBR"
+			(at 289.1633 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+			(at 313.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9555.pdf"
+			(at 274.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24"
+			(at 287.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bb20abb3-eec6-4931-8cf4-de9a8e130735")
+		)
+		(pin "11"
+			(uuid "778c3e3d-70c0-4405-9620-75087f8e0fae")
+		)
+		(pin "14"
+			(uuid "f196b403-6e4b-47eb-9022-dfa64a54ce94")
+		)
+		(pin "16"
+			(uuid "61e6a1bc-3da2-4e60-a6c3-349218af8266")
+		)
+		(pin "18"
+			(uuid "bcd1618d-bcf0-4eeb-bf15-6de87ace65e2")
+		)
+		(pin "20"
+			(uuid "9c0abe81-a2fc-4912-a6a7-88f15e7fd041")
+		)
+		(pin "4"
+			(uuid "ead67ebf-a63b-420a-8f2c-9b25b4c284e9")
+		)
+		(pin "21"
+			(uuid "e670658b-2739-4025-98a0-14518f7d2cde")
+		)
+		(pin "22"
+			(uuid "61cfcf7a-b38a-4dc3-8079-f1cf62b7889c")
+		)
+		(pin "24"
+			(uuid "60aec427-8a23-4857-8d91-74ae3ed0527b")
+		)
+		(pin "12"
+			(uuid "a406c62a-271f-4d06-90e8-6ad12074bb9e")
+		)
+		(pin "3"
+			(uuid "2d699585-2115-452e-94c3-28de82117096")
+		)
+		(pin "6"
+			(uuid "6b4b3b5a-2656-4be9-b111-fadad22006f2")
+		)
+		(pin "7"
+			(uuid "d3f13e33-086a-48f3-8125-cd794da6d3a7")
+		)
+		(pin "2"
+			(uuid "d925f979-6df5-4868-bd36-ec3a3be8954f")
+		)
+		(pin "8"
+			(uuid "0daf23a7-7a32-458d-a085-69d83fa5bbb0")
+		)
+		(pin "9"
+			(uuid "77c346ef-6a44-4fd2-8f78-92ee0e036f12")
+		)
+		(pin "1"
+			(uuid "752bfa2e-ca3e-4893-9b6b-8cebb22e5d54")
+		)
+		(pin "23"
+			(uuid "fc61650b-3f96-44f7-93e9-4a0ad96156c8")
+		)
+		(pin "10"
+			(uuid "e298d57e-b93d-4dfc-8487-748c8fb50cf0")
+		)
+		(pin "13"
+			(uuid "b6ebe122-4708-40f0-b9de-fee0a847af99")
+		)
+		(pin "15"
+			(uuid "e311d7b5-b812-4c70-8e85-a45967d36ec7")
+		)
+		(pin "17"
+			(uuid "1bf1825a-8145-46d7-8d3a-089da82cb58f")
+		)
+		(pin "19"
+			(uuid "c5dba55f-b290-4db6-bd7d-e0830df4a561")
+		)
+		(instances
+			(project ""
+				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -26774,165 +26385,6 @@
 			(project "ESPhome_greenhouse_controller"
 				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_Expansion:MCP23017_SO")
-		(at 287.02 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b290955c-38c5-44ca-b431-0fe469edeff9")
-		(property "Reference" "U2"
-			(at 289.2141 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP23017_SO"
-			(at 289.2141 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
-			(at 292.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
-			(at 292.1 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28"
-			(at 287.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C47023"
-			(at 289.2141 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "22"
-			(uuid "cb1a10a3-8e58-43a8-b9ad-af96618593c8")
-		)
-		(pin "20"
-			(uuid "aa47cc17-fbb5-4dd8-a9ab-abe2cd3dba07")
-		)
-		(pin "12"
-			(uuid "aa54815d-6eb6-497b-b7ff-86a337fff808")
-		)
-		(pin "21"
-			(uuid "c3d2a844-58a4-4145-958a-9a77cce4d5ed")
-		)
-		(pin "27"
-			(uuid "51411cdf-ce17-4dbe-a36f-bc10854ee761")
-		)
-		(pin "17"
-			(uuid "d08e8cda-5d1f-4b6a-9b0e-14635e8b6bd3")
-		)
-		(pin "4"
-			(uuid "0191b747-af31-4b25-a20c-be52980b7c20")
-		)
-		(pin "19"
-			(uuid "b809dc8c-7b6a-4fe5-afc4-3010bb86b742")
-		)
-		(pin "25"
-			(uuid "66f5ad88-07b9-49a1-ba48-ed4a0fd800b8")
-		)
-		(pin "2"
-			(uuid "a8848ad7-f49f-4935-b194-c921063a298f")
-		)
-		(pin "3"
-			(uuid "de18cd00-68c1-4917-a56f-1d1e16a56c75")
-		)
-		(pin "11"
-			(uuid "da51a3a7-0df1-4a24-b229-7fe97bb060ab")
-		)
-		(pin "10"
-			(uuid "1ddc9e96-1061-44cc-a2af-a781d39f2388")
-		)
-		(pin "16"
-			(uuid "4f449c5e-caf4-4dc2-be5c-4861b332636d")
-		)
-		(pin "5"
-			(uuid "4784aa11-098d-45df-914f-3dfdcd8f749a")
-		)
-		(pin "6"
-			(uuid "85ece9a0-fd7c-4e35-9cfc-672a90ded050")
-		)
-		(pin "14"
-			(uuid "0f1afd65-f275-4dac-8004-052008c93e9b")
-		)
-		(pin "15"
-			(uuid "9e21686a-6aa5-4cd2-ad48-066e2a66df32")
-		)
-		(pin "26"
-			(uuid "1808503d-192b-4b5c-8be0-485b1264e0d0")
-		)
-		(pin "24"
-			(uuid "76d55678-0317-44c0-88aa-dc6c101a7aa8")
-		)
-		(pin "13"
-			(uuid "524da4a9-197f-4157-b882-edc035a3680e")
-		)
-		(pin "23"
-			(uuid "dfd671fa-ef01-4ea7-9554-b90d66eee068")
-		)
-		(pin "28"
-			(uuid "79c40b82-89e1-4018-999b-ecaa846dee37")
-		)
-		(pin "7"
-			(uuid "7c96e3ba-c77c-4749-9e5b-efe8a2f8e328")
-		)
-		(pin "8"
-			(uuid "ad516434-ca66-44c9-98b8-9c84b978a82b")
-		)
-		(pin "1"
-			(uuid "aced28ec-937f-4b4c-a13c-698cc573f5ba")
-		)
-		(pin "9"
-			(uuid "14534ee1-e4ed-4473-ad77-4307eeea8d3a")
-		)
-		(pin "18"
-			(uuid "a3ff8959-f611-4ece-b1dd-16a54f2bf657")
-		)
-		(instances
-			(project ""
-				(path "/369bf40f-e28a-46b1-be37-62b35f4960a2"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -32031,7 +31483,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 259.08 184.15 90)
+		(at 259.08 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32040,7 +31492,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff781e45-2c92-47db-bde0-5e32ff696716")
 		(property "Reference" "#PWR045"
-			(at 262.89 184.15 0)
+			(at 259.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32049,7 +31501,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 255.27 184.1499 90)
+			(at 260.985 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
